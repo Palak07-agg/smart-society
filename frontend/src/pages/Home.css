@@ -1,0 +1,108 @@
+
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 15px 40px;
+  background: rgba(0, 49, 98, 0.8);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+    display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #90caf9;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 75vh;
+  background-image: url('C:\Users\Dell\Desktop\society\frontend\public\images\society-bg.jpg'); /* Replace with your own image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.hero-title {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 3px 3px 12px rgba(0,0,0,0.8);
+}
+
+/* About Section */
+.about-section {
+  background-color: #e3f2fd;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #0d47a1;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f1f8e9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  color: #444;
+  margin: 5px 0;
+}
